@@ -1,4 +1,8 @@
-> 🚧 Active Development
+> 📦 Archived Repository
+>
+> This repository represents **Generation 1** of the research.
+>
+> Active development has moved to **Generation 2 (Local Grid Optimizer - LGO)**.
 
 # Transformer Simulation System
 
@@ -8,32 +12,35 @@ A modular Python framework for distribution transformer simulation.
 
 # Overview
 
-This project models the hourly operation of a distribution transformer by combining:
+This project was developed as the first research prototype for modeling the behaviour of distribution transformers using a clean and modular software architecture.
 
-* Ambient temperature
-* Load profile
-* Transformer operating state
-* Time progression
-* Daily reporting
+The system combines:
 
-The project is designed with clean architecture principles to make future expansion simple and maintainable.
+- Ambient temperature
+- Load profile
+- Transformer operating state
+- Time progression
+- Daily reporting
+
+Beyond the electrical simulation itself, the primary objective of this repository was to establish a scalable software architecture suitable for future Embedded and Digital Twin projects.
 
 ---
 
 # Current Features
 
-* Hourly simulation engine
-* Modular time management
+- Hourly simulation engine
+- Modular time management
 
-  * Clock
-  * Calendar
-  * TimeEngine
-* Temperature sensor simulation
-* Load sensor simulation
-* Transformer operating state calculation
-* Daily report generation
-* Dependency Injection architecture
-* Clean separation of responsibilities
+  - Clock
+  - Calendar
+  - TimeEngine
+
+- Temperature sensor simulation
+- Load sensor simulation
+- Transformer operating state calculation
+- Daily report generation
+- Dependency Injection architecture
+- Clean separation of responsibilities
 
 ---
 
@@ -74,52 +81,73 @@ Simulation
 
 ---
 
-# Development Status
+# Project Status
 
-## Version 0.3
+## Generation 1 — Completed
 
-Current Status
+This repository has completed its research objectives.
 
-- Stable simulation architecture
-- Stable time management subsystem
-- Stable simulation workflow
-- Modular project structure
+Generation 1 successfully validated:
+
+- Clean Architecture
+- Dependency Injection
+- Modular simulation design
+- Digital Twin software concepts
+
+During field research and discussions with power distribution engineers, a new engineering challenge was identified that offers greater practical value.
+
+For this reason, Generation 1 has been archived.
+
+The knowledge gained from this repository now serves as the technical foundation for **Generation 2**.
 
 ---
 
-# Roadmap
+# Lessons Learned
 
-## Version 0.4
+The most important lesson from this project was:
 
-* Improved transformer thermal model
-* Better operating state calculations
+> Building a professional solution is valuable only after identifying the correct engineering problem.
 
-## Version 0.5
+Generation 1 provided the software architecture and engineering experience required to begin a more realistic research direction.
 
-* Historical statistical analysis
-* Data visualization
+---
 
-## Version 0.6
+# Future Direction
 
-* Multiple transformer simulation
-* Network-level analysis
+Research continues under a new project:
 
-## Future Goals
+## Local Grid Optimizer (LGO)
 
-* Automatic feeder load balancing
-* Intelligent transformer loading analysis
-* Distribution network optimization
-* STM32 / ESP hardware integration
-* Web dashboard
+Generation 2 focuses on:
+
+- Local Grid Optimization
+- Intelligent Phase Balancing
+- Behaviour Learning
+- Predictive Decision Engine
+- Edge Intelligence
+- Adaptive Algorithms
+
+Unlike Generation 1, the new project originates from real operational challenges observed in low-voltage distribution networks.
 
 ---
 
 # Technologies
 
-* Python
-* Object-Oriented Programming (OOP)
-* Dependency Injection
-* Clean Architecture principles
+- Python
+- Object-Oriented Programming (OOP)
+- Dependency Injection
+- Clean Architecture
+- Digital Twin Concepts
+
+---
+
+# Repository Status
+
+✅ Archived
+
+This repository will remain available as a historical reference and technical milestone.
+
+No further feature development is planned.
 
 ---
 
@@ -127,7 +155,8 @@ Current Status
 
 **Hadi Norouzi**
 
-Electrical & Embedded Systems Engineer
+Electrical Engineer | Embedded Systems | Software Architecture
 
-Repository:
+GitHub
+
 https://github.com/Zaptrons/Transformer-Simulation-System
